@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: rakshithshenoy/client
+          image: kristaldsouza/client
           resources:
             limits:
               memory: "800Mi"
