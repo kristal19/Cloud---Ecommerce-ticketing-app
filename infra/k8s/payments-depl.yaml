@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: rakshithshenoy/payments
+          image: kristaldsouza/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
